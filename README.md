@@ -1,22 +1,21 @@
-# DIO - Trilha .NET - Testes Unitários com C#
-www.dio.me
+# Trilha .NET - Testes Unitários Desafio
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Testes Unitários com C#, da trilha .NET da DIO.
+Este é um projeto educacional criado como parte de um estudo sobre testes unitários em C# usando a trilha .NET.
 
-## Contexto
-Você está trabalhando em um sistema, e seus gestores relataram que frequentemente há problemas no software: bugs, funcionalidades que estavam funcionando de repente não funcionam mais, problemas de validações, entre outros. Os clientes já começam a duvidar da qualidade do código.
+## Descrição
 
-Feito isso, você sugeriu a implementação de testes unitários: escrever testes cobrindo as partes mais críticas do sistema, com cenários positivos e negativos, a fim de ter uma rastreabilidade e controle do código, melhorando assim a qualidade desse sistema.
+Este projeto contém implementações de testes unitários em C# para validar diferentes funcionalidades em duas classes: `ValidacoesString` e `ValidacoesLista`.
 
-Os gestores aceitaram a sua ideia, e com isso, você precisa implementar testes unitários no sistema.
+- `ValidacoesString`: Esta classe contém métodos para validar strings, como verificar a presença de determinadas palavras em um texto.
 
-## Premissas
-O sistema hoje possui dois projetos: um do tipo console, e um do tipo testes com **xUnit**. O projeto do tipo console possui duas classes em que são realizadas as lógicas principais: **ValidacoesLista** e **ValidacoesString**. Essas classes contém métodos em comum que são usados para realizar diversas validações em determinados cenários.
+- `ValidacoesLista`: Esta classe contém métodos para validar listas de números, como remover números negativos ou encontrar o maior número em uma lista.
 
-O projeto de testes possui as classes de teste **ValidacoesListaTests** e **ValidacoesStringTests**, assim como seus métodos para validar o projeto do tipo console, porém estão incompletos. 
+## Como Executar os Testes
 
-O seu objetivo é implementar os métodos de testes contidos no projeto.
+1. Certifique-se de ter o SDK do .NET instalado na sua máquina.
+2. Clone este repositório no seu ambiente de desenvolvimento.
+3. Navegue até o diretório do projeto `TestesUnitarios.Desafio.Console`.
+4. Execute o comando `dotnet test` no terminal para executar todos os testes no projeto.
 
 ## Projeto Console, suas classes e métodos
 
@@ -77,5 +76,10 @@ O projeto está estruturado da seguinte maneira:
 ![Métodos Swagger](Imagens/projeto.png)
 
 
-## Solução
-O código de testes está pela metade, e você deverá dar continuidade implementando os testes descritos acima, para que no final, tenhamos um programa de testes funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos recursos.
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
